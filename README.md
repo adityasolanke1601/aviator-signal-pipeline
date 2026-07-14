@@ -84,7 +84,7 @@ Built it this way on purpose: a real GTM engineering pipeline shouldn't be
 locked to one model vendor, and swapping providers with zero code changes is
 the kind of thing that matters once this is running against a live CRM.
 
-## What I'd build first at Aviator (application answer)
+## What I'd build first at Aviator
 
 > I'd build the GitHub-signal enrichment layer first, before touching Clay or
 > a sequencer. Aviator's ICP is entirely visible through public GitHub
