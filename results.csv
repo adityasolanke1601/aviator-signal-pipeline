@@ -1,0 +1,75 @@
+org,found,repos_analyzed,biggest_repo,total_size_kb,ci_adoption_pct,pr_throughput_30d,languages,fit_score,outbound_message
+langgenius,True,8,dify-plugins,2668112,100.0,1471,"Go Template, MDX, Python, Shell, TypeScript",100.0,"Subject: managing 1,400+ PRs on dify-plugins
+
+Hi [Name],
+
+With 1,400+ PRs monthly across your GHA-managed repos like `dify-plugins`, semantic merge conflicts and queue delays are likely hurting your velocity at this scale (2.6GB+ codebase). 
+
+Aviator’s MergeQueue prevents broken mainlines by validating PR batches in parallel before they merge, without wasting GHA runner hours. We also route complex TypeScript/Python PRs to the right reviewers automatically via FlexReview.
+
+Worth a 15-minute chat to see how we optimize DevEx for teams at your throughput?"
+openclaw,True,8,clawsweeper-state,15330615,87.5,11769,"JavaScript, Python, Swift, TypeScript",96.2,"Subject: Optimizing GHA queue times for clawsweeper-state
+
+With 11,000+ monthly PRs across your repos—especially `clawsweeper-state`—your GitHub Actions must be constantly bottlenecked. At a 15GB codebase scale and 87.5% GHA adoption, developers are likely wasting hours waiting on queue serialization and fighting broken mainlines.
+
+Aviator's MergeQueue automates parallel validation to eliminate ""keep-green"" rebuilds, while FlexReview routes PRs intelligently to the right reviewers.
+
+Worth a 15-minute chat to see how we cut CI wait times for teams at this scale?"
+anomalyco,True,8,guide,2529089,87.5,2183,"Astro, SCSS, TypeScript, Zig",96.2,"Subject: Managing GHA queue times on guide
+
+At 2,183 PRs/month and 87.5% GitHub Actions adoption across anomalyco's repos, I'm guessing your DevEx team is fighting CI queuing delays and broken mains—especially in your 2.5GB `guide` repo.
+
+Aviator is a parallelizing merge queue designed for this scale. It automatically validates merges in batches, keeping your TypeScript and Zig builds green without developers waiting on GHA or manually rebasing. 
+
+Worth a 15-minute chat to see how we'd fit into your GHA setup?"
+clash-verge-rev,True,8,winget-pkgs,900771,87.5,72,"Rust, TypeScript",96.2,"Subject: GHA queues on clash-verge-rev
+
+With about 72 PRs a month across 8 repos like `winget-pkgs`, clash-verge-rev relies heavily on GitHub Actions (87.5% adoption). 
+
+At your scale (900MB+ of Rust and TypeScript), developers are likely wasting time babysitting GHA runs, dealing with flaky tests, or fixing broken mains after merges.
+
+Aviator’s MergeQueue automates this by validation-testing PRs in parallel before they land, ensuring your main branch is always green without slowing down deploys. 
+
+Worth a 15-minute sync to see how we integrate with your GHA setup?"
+n8n-io,True,8,n8n-docs,1720955,75.0,1819,"CSS, SCSS, TypeScript, Vue",92.5,"Subject: scaling GHA with 1,800+ monthly PRs
+
+At n8n-io’s current scale—averaging 1,800+ PRs a month across repos like n8n-docs—managing GitHub Actions queue times and broken builds gets noisy. 
+
+Aviator prevents broken mains by automating the merge queue. We parallelize GHA checks and speculatively batch PRs (especially for your TypeScript/Vue codebases), so developers don't have to manually update branches or fight merge conflicts. 
+
+Open to a 15-minute technical chat next week?"
+microsoft,True,8,generative-ai-for-beginners,27930591,75.0,226,"C, JavaScript, Jupyter Notebook, TypeScript",92.5,"Subject: GHA queue bottlenecks at Microsoft
+
+With 220+ PRs a month across repos like generative-ai-for-beginners and 75% GHA adoption, CI queue congestion and merge conflicts inevitably slow down your JS, TS, and C devs.
+
+Aviator prevents broken builds on main using a parallelized MergeQueue built for GitHub Actions, alongside FlexReview for intelligent PR routing. 
+
+Would you be open to a 15-minute technical chat on how we help DevEx teams optimize their GHA pipelines?"
+freeCodeCamp,True,8,cdn,3022847,62.5,617,"HTML, JavaScript, Python, Ren'Py, Shell, TypeScript",88.8,"Subject: freeCodeCamp CI bottlenecks / 617 monthly PRs
+
+With over 617 PRs merged last month across freeCodeCamp's repos (including `cdn` at your ~3GB scale), keeping GitHub Actions green without blocking developers is tough. 
+
+Aviator’s MergeQueue prevents broken main branches by validating and merging PRs in parallel, saving GHA run-time and eliminating manual ""git rebase"" loops. We also route reviews intelligently with FlexReview.
+
+Open to a 15-minute chat to see how we can streamline your queue?"
+firecrawl,True,8,firecrawl-docs,1472406,62.5,291,"MDX, TypeScript",88.8,"Subject: firecrawl-docs / GHA merge bottlenecks
+
+With ~290 PRs a month across firecrawl-docs and your TypeScript codebases, keeping GitHub Actions green without developers constantly fighting over the merge button gets messy.
+
+We built Aviator MergeQueue to eliminate broken mains. It automatically serializes and validates PRs in parallel before merging, integrating directly with your GHA workflow. 
+
+Worth a 15-minute chat to see how we can speed up your DevEx?"
+iptv-org,True,8,iptv,2423668,62.5,131,"HTML, JavaScript, Svelte, TypeScript",88.8,"Subject: scaling iptv's CI pipeline
+
+Managing the 2.4GB `iptv` repo at your scale (~130 PRs/month) usually means developers waste time manually rebasing or waiting on GitHub Actions runs to complete. 
+
+Aviator integrates with your GHA setup to automate this with a MergeQueue. It groups and validates PRs in parallel, preventing broken mains and optimizing CI compute for your JS/TS builds. 
+
+Worth a 15-minute chat to see how we manage queuing for teams at this scale?"
+vuejs,True,8,v2.vuejs.org,335628,50.0,138,"JavaScript, TypeScript, Vue",85.0,"Subject: GHA queues on v2.vuejs.org
+
+Across vuejs's 8 repos, you merged 138 PRs last month—mostly in JS and TypeScript. With GitHub Actions running on half of those repos, queuing delays and broken mains on larger codebases like `v2.vuejs.org` usually start compounding at this volume. 
+
+Aviator's MergeQueue automates parallel testing and merge serialization, ensuring broken builds never hit main without blocking developers. 
+
+Do you have 15 minutes next week to see how this integrates with your GHA setup?"
